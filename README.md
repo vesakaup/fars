@@ -6,6 +6,7 @@ GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+[![Build Status](https://travis-ci.org/vesakaup/fars.svg?branch=master)](https://travis-ci.org/vesakaup/fars)
 
 ## Create an Example Package in R
 
@@ -34,8 +35,8 @@ your package. This assessment will ask reviewers the following questions:
 [man/](https://github.com/vesakaup/fars/tree/master/man)?
 * Does this package contain a 
 [vignette](https://github.com/vesakaup/fars/tree/master/vignettes)
-* Does this package have at least one test included in the [tests/]
+* Does this package have at least one test included in the ([tests/]https://github.com/vesakaup/fars/tree/master/tests)
 * Does this package have a [NAMESPACE](https://github.com/vesakaup/fars/blob/master/NAMESPACE)
 * Does the README.md file for this directory have a [Travis badge]
-* Is the build of this package passing on [Travis badge]
-* Are the build logs for this package on [Travis badge]
+* Is the build of this package passing on [Travis badge](https://travis-ci.org/vesakaup/fars.svg?branch=master)](https://travis-ci.org/vesakaup/fars)
+* Are the build logs for this package on [Travis badge](https://travis-ci.org/vesakaup/fars.svg?branch=master)](https://travis-ci.org/vesakaup/fars)
