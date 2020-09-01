@@ -36,7 +36,7 @@ This package provides the following five(**5**) FARS (Fatality Analysis Reportin
 
 ```{r}
 library(fars)
-BuildingRPackagesCoursera:::fars_read("accident_2014.csv.bz2") # file exists in current working directory
+fars:::fars_read("accident_2014.csv.bz2") # file exists in current working directory
 ```
 
 The function call `fars:::fars_read('abc123xyz.csv')` will produce the Error:  

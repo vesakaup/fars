@@ -2,25 +2,27 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_read_years}
 \alias{fars_read_years}
-\title{Read individual files (each year)}
+\title{Read farsdata years}
 \usage{
 fars_read_years(years)
 }
 \arguments{
-\item{years}{is an integer or list or vector representing year(s)}
+\item{years}{A vector with a list of years}
 }
 \value{
-data frames for each year-file containing month and year columns
-
-if year is invalid (no existing file) returns warning
+A data.frame including entries in data by month, or NULL if the
+ \code{year} is not valid
 }
 \description{
-Read individual files (each year)
+Ancillary function used by \code{fars_summarize_years}
 }
 \examples{
-\dontrun{
- fars_read_years (2013)
- fars_read_years (2013:2015)
- fars_read_years (c(2013,2015))
+fars_read_years(2013)
 }
+\seealso{
+\link{fars_read}
+
+\link{make_filename}
+
+\link{fars_summarize_years}
 }

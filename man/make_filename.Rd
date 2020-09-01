@@ -2,19 +2,24 @@
 % Please edit documentation in R/fars_functions.R
 \name{make_filename}
 \alias{make_filename}
-\title{Make filename}
+\title{Make data file name}
 \usage{
 make_filename(year)
 }
 \arguments{
-\item{year}{is an integer representing year}
+\item{year}{A string or an integer with the input \code{year}}
 }
 \value{
-string representing a filename
+This function returns a string with the data file name for a given
+  year, and the file path within the package.
 }
 \description{
-Make filename
+Make .csv data file name related to the given \code{year}
+The function does not check if the file is available.
 }
 \examples{
-\dontrun{ make_filename(2013) }
+make_filename(2013)
+}
+\seealso{
+\link{fars_read}
 }

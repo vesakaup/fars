@@ -26,16 +26,16 @@ The functions in the package allow mapping the test data from the US National Hi
 
 ## Review Criteria
 
-For this assignment you'll submit a link to the [GitHub repository](https://github.com/EnriquePH/FARS) which contains
+For this assignment you'll submit a link to the [GitHub repository](https://github.com/vesakaup/fars) which contains
 your package. This assessment will ask reviewers the following questions:
 
-* Does this package contain the correct [R file(s) under the R/ directory](https://github.com/vesakaup/Building-R-packages/tree/master/R)?
+* Does this package contain the correct R file(s) under the [R/ directory](https://github.com/vesakaup/fars/tree/master/R)?
 * Does this package contain a 
-[man/](https://github.com/vesakaup/Building-R-packages/tree/master/man)?
+[man/](https://github.com/vesakaup/fars/tree/master/man)?
 * Does this package contain a 
-[vignette]
+[vignette](https://github.com/vesakaup/fars/tree/master/vignettes)
 * Does this package have at least one test included in the [tests/]
-* Does this package have a [NAMESPACE]
+* Does this package have a [NAMESPACE](https://github.com/vesakaup/fars/blob/master/NAMESPACE)
 * Does the README.md file for this directory have a [Travis badge]
 * Is the build of this package passing on [Travis badge]
 * Are the build logs for this package on [Travis badge]
