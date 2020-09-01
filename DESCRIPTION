@@ -1,13 +1,25 @@
 Package: fars
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Fars R Package
 Version: 0.1.0
-Author@R: person("Kauppinen", "Vesa", email = "wezzo1@yahoo.com", role = c("aut", "cre"))
+Author: Vesa Kauppinen
+Maintainer: Vesa Kauppinen <vesa.kauppinen1@icloud.com>
 Description: Building R packages assignment
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    knitr (>= 1.20),
+    dplyr (>= 0.7.99.9000),
+    mapdata (>= 2.3.0),
+    maps (>= 3.3.0), 
+    magrittr (>= 1.5),
+    readr (>= 1.1.1), 
+    tidyr (>= 0.8.2.9000),
+    tibble (>= 1.4.99.9005),
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
 RoxygenNote: 7.1.1
